@@ -34,7 +34,7 @@ class ViewController: UIViewController {
             navigationController?.pushViewController(contactsViewController,  animated: true)
         } else{
             warningLabel.textColor = .systemRed
-            warningLabel.text = "Wrong number or password"
+            warningLabel.text = "Wrong login or password"
         }
     }
     
